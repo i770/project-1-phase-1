@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crime Data Viewer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app">
+        <header>
+            <h1>Crime Data for January 2023</h1>
+            <button id="theme-toggle">Toggle Dark/Light Mode</button>
+        </header>
+        <main>
+            <input type="text" id="search" placeholder="Search by crime type..." />
+            <div id="crime-list">
+                <!-- Crime data will be inserted here -->
+            </div>
+        </main>
+        <footer>
+            <p>Data from the UK Police API</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
